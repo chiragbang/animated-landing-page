@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="open">
+        <div class="layer"></div>
+        <div class="layer"></div>
+    </div>
+    <section>
+        <div class="header">
+            <h2 class="logo">TimeCraft Co.</h2>
+            <i class="fa fa-bars x2" onclick="menuToggle()"></i>
+            <ul id="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Luxury</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Vintage</a></li>
+                <i class="fa fa-times x2" onclick="menuToggle()"></i>
+            </ul>
+        </div>
+        <div class="bannertext">
+            <h2>TimeCraft Co's</h2><br>
+            <h3>RegalTime Elegance</h3>
+            <p>Step into the world of refined elegance with the RegalTime Elegance. Meticulously crafted with precision and passion, this exquisite timepiece epitomizes luxury. From its sleek stainless steel case to its luminous hour markers, every detail exudes sophistication. With its Swiss movement and sapphire crystal lens, the RegalTime Elegance offers both timeless style and exceptional performance. Elevate your wristwear with this masterpiece and make every moment a statement of elegance and refinement.</p>
+            <a href="#" class="readmore">Read More</a>
+        </div>
+        <img src="watch.png" class="bulb">
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <div class="element1"></div>
+        <div class="element2"></div>
+    </section>
+    
+    <script type="text/javascript">
+        function menuToggle(){
+            var element = document.getElementById("navigation");
+            element.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
